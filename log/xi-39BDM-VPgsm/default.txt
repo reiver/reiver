@@ -1,0 +1,15 @@
+§ We Need an Alternative to URLs
+
+I've been thinking lately that we need an alternative to URLs.
+
+URLs are great in that they let you "reference" or "point to" things. (Such as webpages, files, objects, people, procedures, e-mail boxes, etc etc.)
+
+(Really URLs are the computer equivalent of a "name" in human language.)
+
+However, I think URLs have some failings.
+
+№1: It's integrated with domain names. "Why is that a problem", you might be asking. ("Domain names are a lot easier to remember than IP addresses after all.") Well, first off domain names cost money. (Which isn't really the bad part.) The bad part is that people often don't keep on paying for domain names, and they loose them, and "great" websites, or webpages with little "gems" on them disappear. Things like Archive.org help. But, I think a better solution is needed. (Also, Archive.org doesn't get everything.) Perhaps if URLs, or a URL alternative, didn't use domain names or IP address then we wouldn't have websites and webpages disappearing. (Maybe if we used a "free" identifier that anyone could generate. Maybe something like a UUID. And have that mapped onto IP addresses, "hashes", or something else.)
+
+№2: The protocols that a URL can use (as far as I know), technically, must be built on TCP. This makes for a problem. I'll give you an example.
+
+I want to create a desktop application system that used UNIX/POSIX named sockets. And I wanted to "point to" the server for the application using a URL. How do I do that? How do I use named sockets in a URL? It's similar to a TCP port. However, I can't just stick in a "path" to a named socket where the port for the URL would go, since it would include slashes. I guess I could use some method of "escaping" the slashes. However, in using "named sockets" I'm no longer using TCP. And thus, it's not really a URL.)
