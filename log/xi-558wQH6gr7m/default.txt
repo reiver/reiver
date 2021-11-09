@@ -1,4 +1,4 @@
-For the Go programming language, to turn-off and disable GOPROXY, for the “go” command's “go get” sub-command, call it with GOPROXY="direct" as follows:
+For the Go‐programming‐language, to turn-off and disable GOPROXY, for the “go” command's “go get” sub-command, call it with GOPROXY="direct" as follows:
 
 GOPROXY="direct" go get <url>
 
