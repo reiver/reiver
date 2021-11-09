@@ -1,0 +1,63 @@
+§ RSS Disposition Hinting Proposal
+
+Really‐Simple‐Syndication (RSS) is a popular HTML‐like XML‐based data format used for syndication. RSS has a sorted history and a mutlitude of different incompatible RSS versions. (Some being based on RDF, but most only being based on XML.) Regardless of this RSS is an extemely popular format used for syndicating news, blog posts, IPradio, and IPTV, with an amazing amount of momentum.
+
+The RSS MIME Type has previously been agreed on.⁽¹⁾ And is:
+
+	application/rss+xml
+
+(following the conventions laid out by RFC‐3023⁽²⁾). This was done for many reasons. The reason relevant to this article is that it allows web browsers to recognize a document as an RSS feed and handle it properly without having to probe (or understand) the file (as would be the case if the "application/xml", "text/xml", or "text/plain" MIME types were used). For example, on receiving a file with the "application/rss+xml" MIME type, a web browser could "hand off" handling of the file to an extenal program (such as an RSS aggregator).
+
+In the past RSS was dominated by the syndication of "text" media; the syndication of news websites, the syndication of blogs, the syndication of weather reports, the syndication of stock prices, the syndication of sports scores, etc. Today, this is no longer the case.
+
+Today, there is a varied landscape of media types syndicated by RSS. IPTV uses RSS to syndicate "video" media. IPradio (also known as podcasting) uses RSS to syndicate "audio" media. Software update systems use RSS to syndicate "software" media.
+
+Handling all RSS feeds with a single RSS aggregator is no longer desirable. IPTV RSS feeds may be handled by one piece of software. IPradio RSS feeds may be handled by another piece of software. And news and blog RSS feeds may be handled by yet another piece of software.
+
+Today branding an RSS feed with the "application/rss+xml" MIME type is no longer sufficient to allow a web browser to handle an RSS feed properly without having to probe (and understand) the file. More metadata is needed. Metadata that hints at what is being syndicated.
+
+The important point to keep in mind is that it is desirable to allows software (like web browsers) to know how to "handle" an RSS feed without having to probe (or even understand) the RSS feed. And although there are many ways of achieving this goal, this article only proposes one such method.
+
+I propose that we keep the "application/rss+xml" MIME type as the only MIME type of RSS feeds, but create a community agreed upon tweak that is perfectly legal under RFC‐2045⁽³⁾ and RFC‐2046⁽⁴⁾. I propose that we use a "Content-Type" parameter to tell us what is being syndicated.
+
+For example, "plain text" documents have the MIME type
+
+	text/plain
+
+Sometimes, however, there are parameters appended to this MIME type. For example:
+
+	text/plain; charset=us-ascii
+
+For RSS, we could also make use to the a "Content-Type" parameter. For example, we could have:
+
+	application/rss+xml; disposition-type=text
+	
+	application/rss+xml; disposition-type=sound
+	
+	application/rss+xml; disposition-type=moving-image
+	
+	application/rss+xml; disposition-type=x-windows-update
+
+Given that it is accepted (by the RSS community) that the use of a "Content-Type" parameter be used for hinting at the "disposition type" of an RSS feed. (I.e., given that it is accepted that we use a "Content-Type" parameter to tell us what is being syndicated.) Then there are certain things that need to be agreed upon.
+
+№1: What the name of the parameter is.
+№2: What standard values are allowed for the parameter.
+№3: How we allow for non-standard parameter values.
+
+For №1 I propose "disposition-type" be used (as was illustated in the example). For №2 I propose that the initial standard set be pulled from the Dublin‐Core‐Metadata‐Initiative⁽⁵⁾'s Type‐Vocabulary⁽⁶⁾; namely: text, still-image, sound, software, service, physical-object, moving-image, interactive-resource, image, event, dataset, and collection. For №3 I propose we use the "x-" prefix.
+
+(Given RSS' history of having drafts and proposal being implemented I feel compelled to explicitly say that this is not a standard in any way and should not be implemented. It is a proposal meant to affect discussion that may lead to a community accepted standard.)
+
+―
+
+⁽¹⁾ http://diveintomark.org/archives/2002/06/02/important_change_to_the_link_tag
+
+⁽²⁾ https://www.ietf.org/rfc/rfc3023.txt
+
+⁽³⁾ https://www.ietf.org/rfc/rfc2045.txt
+
+⁽⁴⁾ https://www.ietf.org/rfc/rfc2046.txt
+
+⁽⁵⁾ http://dublincore.org/
+
+⁽⁶⁾ http://dublincore.org/documents/dcmi-type-vocabulary/
