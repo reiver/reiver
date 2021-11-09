@@ -1,0 +1,74 @@
+§ Testing a Matrix for Uniform Scaling
+
+Regarding the question Eduardo Marreiros asked on Sunday October 13, 1996:
+
+> This is chalenge to you guys,
+> 
+> A 3D matrix is a great help in computing transformations. (SFSG...)
+> 
+> From a generic matrix you can derive some properties of the transformation.
+> 
+> I'm interested in finding a QUICK and LINEAR way to determine if some 4x4 matriz produces a transformation in which all 3 scale factors are equal. I mean, if some object is to be transformed, it will not be deformed. An object will be grown/shrinked by the same amount in all 3 axis.
+> 
+> Having:
+> 
+> | a11 a12 a13 a14 |
+> | a21 a22 a23 a24 |
+> | a31 a32 a33 a34 |
+> |  0   0   0   1  |
+> 
+> Can I create a set of LINEAR EQUATIONS on unknows aij that guaranties my condition (no deformation - equal scale factors) ???
+> 
+> LINEAR equations is a MUST for my problem.
+> 
+> See ya, Edu
+
+One way to do it is…
+
+Given the matrix:
+
+	┌                    ┐
+	│ a₁₁  a₁₂  a₁₃  a₁₄ │
+	│ a₂₁  a₂₂  a₂₃  a₂₄ │
+	│ a₃₁  a₃₂  a₃₃  a₃₄ │
+	│  0    0    0    1  │
+	└                    ┘
+
+First focus the upper‐left 3×3 sub‐matrix:
+
+	┌               ┐
+	│ a₁₁  a₁₂  a₁₃ │
+	│ a₂₁  a₂₂  a₂₃ │
+	│ a₃₁  a₃₂  a₃₃ │
+	└               ┘
+
+Then check that this upper‐left 3×3 sub‐matrix matrix‐multiplied with its transpose gives you a matrix of the form:
+
+	┌               ┐
+	│  k    0    0  │
+	│  0    k    0  │
+	│  0    0    k  │
+	└               ┘
+
+(where k will end up begin your scaling‐factor)
+
+I.e.,:…
+
+	┌               ┐ ┌               ┐T    ┌               ┐ ┌               ┐     ┌               ┐
+	│ a₁₁  a₁₂  a₁₃ │ │ a₁₁  a₁₂  a₁₃ │     │ a₁₁  a₁₂  a₁₃ │ │ a₁₁  a₂₁  a₃₁ │     │  k    0    0  │
+	│ a₂₁  a₂₂  a₂₃ │ │ a₂₁  a₂₂  a₂₃ │  =  │ a₂₁  a₂₂  a₂₃ │ │ a₁₂  a₂₂  a₃₂ │  =  │  0    k    0  │
+	│ a₃₁  a₃₂  a₃₃ │ │ a₃₁  a₃₂  a₃₃ │     │ a₃₁  a₃₂  a₃₃ │ │ a₁₃  a₂₃  a₃₃ │     │  0    0    k  │
+	└               ┘ └               ┘     └               ┘ └               ┘     └               ┘
+
+This makes sure that the upper‐left 3×3 sub‐matrix is orthogonal — and nicely ignores scaling but not spatial inversions so…
+
+Then make sure that:
+
+	               | a₁₁  a₁₂  a₁₃ |
+	determinant(   | a₂₁  a₂₂  a₂₃ |   )    is positive
+	               | a₃₁  a₃₂  a₃₃ |
+
+This makes sure that you don't invert your space/coordinate‐system.
+
+
+⸺ Charles Iliya Krempeaux
