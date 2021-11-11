@@ -1,0 +1,15 @@
+§ Dynamically Redefined Character Set
+
+The computer-terminal dynamically-redefined-character-set (DRCS) is a technology that can be used to upload new typography-glyphs to a computer-terminal at a range of character‐code‐points so that an application can use them for their own custom typography-glyphs for their own custom characters.
+
+With the dynamically-redefined-character-set (DRCS) technology, new typography-glyphs are uploaded to the computer-terminal using the sixel bitmap graphics data-format.
+
+The computer-terminal dynamically‐redefined‐character‐set (DRCS) technology is similar in idea of a unicode private‐use‐area.
+
+Some computer-terminals that supported the dynamically-redefined-character-set (DRCS) technology include:
+
+• VT220
+• VT240
+• VT241
+• VT320
+• VT420
