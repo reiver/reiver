@@ -1,0 +1,15 @@
+§ Private Use Area
+
+A unicode private‐use‐area is a range of character‐code‐points that are intentionally not assigned any characters and are left unassigned so that applications can use them for their own custom typography-glyphs for their own custom characters.
+
+Unicode currently has these three separate contiguous private‐use‐areas:
+
+	┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┓
+	┃ Start    ┃ End      ┃ Num Unassigned ┃
+	┡━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━┩
+	│   U+E000 │   U+F8FF │  6,400         │
+	│  U+F0000 │  U+FFFFD │ 65,534         │
+	│ U+100000 │ U+10FFFD │ 65,534         │
+	└──────────┴──────────┴────────────────┘
+
+A unicode private‐use‐area is similar in idea to the computer-terminal dynamically‐redefined‐character‐set (DRCS).
