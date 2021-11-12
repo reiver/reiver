@@ -1,0 +1,17 @@
+§ Sixel
+
+The sixel graphics data‐format is a data‐format used by a number computer‐terminals to do things such as:
+
+• drawing images on a computer‐terminal display screen, and
+• load a soft-character-set into a computer‐terminal's dynamically-redefined-character-set (DRCS) memory.
+
+The word sixel is short for “six pixels” — a reference to the way the sixel data‐format encodes a bitmap image.
+
+§§ Computer Terminals
+
+Some computer‐terminals, whose support for sixel graphics included being able to draw sixel images to the display screen, include:
+
+• VT240,
+• VT241,
+• VT330, and
+• VT340.
