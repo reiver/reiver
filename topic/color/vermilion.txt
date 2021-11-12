@@ -1,0 +1,17 @@
+§ Vermilion
+
+Vermilion is a vivid bright orange-red color.
+
+Vermilion is also sometimes spelled: vermillion.
+
+The hexadecimal triplet for vermilion is:
+
+	#E34234
+
+The 8-bit sRGB (r,g,b) values for vermilion are:
+
+	(227, 66, 52)
+
+The HSV (h,s,v) value for vermilion are:
+
+	(5°, 77%, 89%)
