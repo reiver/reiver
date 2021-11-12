@@ -6,6 +6,8 @@ With the dynamically-redefined-character-set (DRCS) technology, new typography-g
 
 The computer-terminal dynamically‐redefined‐character‐set (DRCS) technology is similar in idea of a unicode private‐use‐area.
 
+The custom character fonts uploaded into a computer-terminal that has dynamically-redefined-character-set (DRCS) technology is called a soft-character-set.
+
 Some computer-terminals that supported the dynamically-redefined-character-set (DRCS) technology include:
 
 • VT220
