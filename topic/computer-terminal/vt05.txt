@@ -1,0 +1,28 @@
+§ VT05
+
+The VT05 is a video-display-terminal (VDT) style computer-terminal.
+
+Like all video-display-terminal (VDT) style computer-terminals, the VT05 consisted of a keyboard and a cathode-ray-tube (CRT) viewing screen.
+
+With the VT05, both the keyboard and the CRT were part of the same rigid case, that was at-the-time considered be futuristic in style.
+
+The VT05 was first introduced publicly in 1970.
+
+The VT05 computer-terminal recognized cetain (single) character control-codes that were not recognized by the teletype machines from which the VT05 computer-terminal evolved from.
+
+The VT05 had the following commands control codes:
+
+      ┏━━━━━━━━━┳━━━━━┳━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+      ┃ Decimal ┃ Hex ┃ Binany   ┃ Symbol ┃ Abbr ┃ Description                                      ┃ Name             ┃
+      ┡━━━━━━━━━╇━━━━━╇━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
+      │  8      │ 08  │ 00001000 │   ␈    │ BS   │ cursor move one character left                   │ backspace        │
+      │ 11      │ 0B  │ 00001011 │   ␋    │ VT   │ cursor move one character down                   │ cursor down      │
+      │ 14      │ 0E  │ 00001110 │   ␎    │ SO   │ cursor move to specific xy-coordinate            │ cursor move      │
+      │ 24      │ 18  │ 00011000 │   ␘    │ CAN  │ cursor move one character right                  │ cursor right     │
+      │ 25      │ 19  │ 00011001 │   ␙    │ EM   │ cursor move one character left (not recommended) │ cursor left      │
+      │ 26      │ 20  │ 00011010 │   ␚    │ SUB  │ cursor move one character up                     │ cursor up        │
+      │ 28      │ 1C  │ 00011100 │   ␜    │ FS   │ cursor move to corner in bottom-left             │ home down        │
+      │ 29      │ 1D  │ 00011101 │   ␝    │ GS   │ cursor move to corner in top-left                │ home up          │
+      │ 30      │ 1E  │ 00011110 │   ␞    │ RS   │ erase from cursor to the end‐of‐line             │ erase eol        │
+      │ 31      │ 1F  │ 00011111 │   ␟    │ US   │ erase from cursor to the end‐of‐screen           │ erase eos        │
+      └─────────┴─────┴──────────┴────────┴──────┴──────────────────────────────────────────────────┴──────────────────┘
