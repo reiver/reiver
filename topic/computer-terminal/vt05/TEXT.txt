@@ -26,3 +26,7 @@ The VT05 had the following commands control codes:
       │ 30      │ 1E  │ 00011110 │   ␞    │ RS   │ erase from cursor to the end‐of‐line             │ erase eol        │
       │ 31      │ 1F  │ 00011111 │   ␟    │ US   │ erase from cursor to the end‐of‐screen           │ erase eos        │
       └─────────┴─────┴──────────┴────────┴──────┴──────────────────────────────────────────────────┴──────────────────┘
+
+The VT05 used 5×7 raster-graphics typographical-fonts.
+
+The VT05's 5×7 raster-graphics typographical-fonts seems to have 1-pixel horizonal-spacing between 5-pixel wide characters on the display-screen — to effectively make the characters 6-pixels wide.
