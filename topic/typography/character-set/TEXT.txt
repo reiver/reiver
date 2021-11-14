@@ -1,0 +1,56 @@
+A character-set maps numbers to a set of (abstract) characters.
+
+So, for example, a character-set might map the follow numbers to the following characters:
+
+	┏━━━━━━━━┳━━━━━━━━━━━┓
+	┃ Number ┃ Character ┃
+	┡━━━━━━━━╇━━━━━━━━━━━┩
+	│   65   │     A     │
+	│   66   │     B     │
+	│   67   │     C     │
+	│   68   │     D     │
+	│   69   │     E     │
+	│   70   │     F     │
+	│   71   │     G     │
+	│   72   │     H     │
+	│   73   │     I     │
+	│   74   │     J     │
+	│   75   │     K     │
+	│   76   │     L     │
+	│   77   │     M     │
+	│   78   │     N     │
+	│   79   │     O     │
+	│   80   │     P     │
+	│   81   │     Q     │
+	│   82   │     R     │
+	│   83   │     S     │
+	│   84   │     T     │
+	│   85   │     U     │
+	│   86   │     V     │
+	│   87   │     W     │
+	│   88   │     X     │
+	│   89   │     Y     │
+	│   90   │     Z     │
+	└────────┴───────────┘
+
+So then if there was some text that used this character-set, then 65 would be "A", 69 would be "E", and 77 would be "M". And the following numbers:
+
+	72 69 76 76 79
+
+Would be:
+
+	HELLO
+
+(Because 72 is "H", 69 is "E", 76 is "L", and 79 is "O".)
+
+Note that the character-set does not specify what the each character should look like — a glyph, that is part of a font, specifies what a  character looks like.
+
+Some character-sets include:
+
+• ascii
+• cp437
+• iran‐system‐encoding
+• koi-7
+• pascii
+• uhc
+• unicode
