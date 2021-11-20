@@ -64,6 +64,7 @@
 ## Logging
 
 * [go-flog](https://github.com/reiver/go-flog) — structured and formatted logging.
+* [go-loggers](https://github.com/reiver/go-loggers) — useful tools for dealing with loggers.
 
 ## Maps
 
