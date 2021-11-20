@@ -4,6 +4,17 @@
 
 ## Contents
 
+* [Casting](#casting)
+* [Color](#color)
+* [Error Handler](#error-handler)
+* [JSON](#json)
+* [Logging](#logging)
+* [Maps](#maps)
+* [Natural Language Processing](#natural-language-processing)
+* [Networking(#networking)
+* [Unicode](#unicode)
+* [Unique IDs](#unique-ids)
+
 ## Casting
 
 * [go-cast](https://github.com/reiver/go-cast) — tools for safely converting from one type to another, without information loss.
