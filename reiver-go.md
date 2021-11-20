@@ -4,16 +4,30 @@
 
 ## Contents
 
+* [Binary-To-Text Encoding](#binary-to-text-encoding)
+* [Byte](#byte)
 * [Casting](#casting)
 * [Color](#color)
+* [Content Addressing](#content-addressing)
 * [Error Handler](#error-handler)
 * [JSON](#json)
 * [Logging](#logging)
 * [Maps](#maps)
+* [Money](#money)
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
 * [Unicode](#unicode)
 * [Unique IDs](#unique-ids)
+* [Video](#video)
+
+## Binary-To-Text Encoding
+
+* [go-bravo16](https://github.com/reiver/go-bravo16) — a more (human) safe base-16 binary-to-text encoding, and decoding; brave16 is an alternative to hexadecimal.
+* [go-caret](https://github.com/reiver/go-caret) — encodes, and decodes caret text (i.e., where ASCII control codes are in caret notation) into UTF-8 text (which may also be ASCII text).
+
+## Byte
+
+* [go-byteliteral](https://github.com/reiver/go-byteliteral) — binary number literals for Go's byte type; including binary literals. note that Go 1.13 added binary literals, which makes this package obsolete.
 
 ## Casting
 
@@ -21,11 +35,27 @@
 
 ## Color
 
+* [go-palette2048](https://github.com/reiver/go-palette2048) — a type that represents a color palette of 256 RGBA color with 8-bits per color channel, for a total of 2048-bits altogether, that seamlessly works with Go's built-in `"image"`, `"image/color"`, and `"image/draw"` packages.
+  * [go-palette2048_gb](https://github.com/reiver/go-palette2048_gb)
+  * [go-palette2048_greer](https://github.com/reiver/go-palette2048_greer)
+  * [go-palette2048_gruvbox](https://github.com/reiver/go-palette2048_gruvbox)
+  * [go-palette2048_html3](https://github.com/reiver/go-palette2048_html3)
+  * [go-palette2048_lospec500](https://github.com/reiver/go-palette2048_lospec500)
+  * [go-palette2048_nes](https://github.com/reiver/go-palette2048_nes)
+  * [go-palette2048_rkbv](https://github.com/reiver/go-palette2048_rkbv)
+  * [go-palette2048_solarized](https://github.com/reiver/go-palette2048_solarized)
+  * [go-palette2048_tia](https://github.com/reiver/go-palette2048_tia)
 * [go-rgba32](https://github.com/reiver/go-rgba32) — a type that represents an RGBA color with 8-bits per color channel (stored as a slice rather than a struct), for a total of 32-bits altogether, that seamlessly works with Go's built-in `"image"`, `"image/color"`, and `"image/draw"` packages.
+
+## Content Addressing
+
+* [go-hashuri](https://github.com/reiver/go-hashuri) — parses Hash URIs.
 
 ## Error Handler
 
-* [go-fck](https://github.com/reiver/go-fck) — tools to create and manipulate errors. one thing to notice is that `fck.Error` errors can be a Go `const`.
+* [go-fck](https://github.com/reiver/go-fck) — tools to create and manipulate errors. one thing to notice is that `fck.Error` errors can be a Go `const`; this can be considered a replacement for `errors.New()` and `fmt.Errorf()`
+* [go-errhttp](https://github.com/reiver/go-errhttp) — types errors that make dealing with HTTP response errors easier.
+* [go-manyerrors](https://github.com/reiver/go-manyerrors) — an error type that contains a list of errors.
 
 ## JSON
 
@@ -38,6 +68,10 @@
 ## Maps
 
 * [go-mapstringinterface](https://github.com/reiver/go-mapstringinterface) — tools for working with Go's `map[string]interface{}` type.
+
+## Money
+
+* [go-money](https://github.com/reiver/go-money) — deals with money in a type safe way, including parsing from strings.
 
 ## Natural Language Processing
 
@@ -52,8 +86,13 @@
 ## Unicode
 
 * [go-utf8s](https://github.com/reiver/go-utf8s) — tools for working with Unicode encoded as UTF-8, for the Go programming language.
+* [go-whitespace](https://github.com/reiver/go-whitespace) — A small library for dealing with whitespace; note that this Go library accounts for all 26 UNICODE whitespace characters (and not just the standard ASCII ones), as well as accounts for all 7 UNICODE mandatory break characters.
 
 ## Unique IDs
 
 * [go-xim](https://github.com/reiver/go-xim) — quazi‐ monotonically‐increasing unique‐identifiers, whose serialized form are safe to use as file‐names, and directory‐names, and where lexical-ordering of the xim-id (under Unicode & ASCII) is in-practice also temporal-ordering of the xim-id (almost all of the time)
   * [xim-id](https://github.com/reiver/xim-id) — a program using **go-xim**
+
+## Video
+
+* [go-fourcc](https://pkg.go.dev/github.com/reiver/go-fourcc) — a Go implementation of FOURCC (four character code) (4CC) identifiers for a video codecs, compression formats, colors, and pixel format used in media files.
