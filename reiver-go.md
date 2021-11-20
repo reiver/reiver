@@ -20,6 +20,7 @@
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
   * [HTTP](#http)
+* [Porting](#porting)
 * [Stream Processing](#stream-processing)
 * [String Formatting](#string-formatting)
 * [Testing](#testing)
@@ -109,6 +110,10 @@
 
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-modhandler](https://pkg.go.dev/github.com/reiver/go-modhandler) — deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
+
+## Porting
+
+* [go-php](https://github.com/reiver/go-php) — implements functions and classes familiar to PHP developrs in Go.
 
 ## Stream Processing
 
