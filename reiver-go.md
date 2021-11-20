@@ -19,6 +19,7 @@
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
   * [HTTP](#http)
+* [String Formatting](#string-formatting)
 * [Testing](#testing)
 * [Unicode](#unicode)
 * [Unique IDs](#unique-ids)
@@ -57,6 +58,7 @@
 
 ## Database
 
+* [go-pqerror](https://github.com/reiver/go-pqerror) — a helper library that provides constants for the Postgres Error Codes, to be used with the Golang Postgres driver.
 * [go-shunt](https://github.com/reiver/go-shunt) — enables you to create "middleware" for the the "database/sql" package.
 
 ## Error Handler
@@ -101,6 +103,11 @@
 
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-modhandler](https://pkg.go.dev/github.com/reiver/go-modhandler) — deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
+
+## String Formatting
+
+* [go-stringcase](https://github.com/reiver/go-stringcase) — makes it so you can convert strings to different casing styles: lower case, UPPER CASE, Title Case, camelCase, PascalCase, snake_case, CONST_CASE, property-case, Header-Case.
+* [go-tmpl](https://github.com/reiver/go-tmpl) — provides templating capabilities.
 
 ## Testing
 
