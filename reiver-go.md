@@ -111,6 +111,7 @@
 
 ## Testing
 
+* [go-arbitrary](https://github.com/reiver/go-arbitrary) — provides tools for generating arbitrary data; useful for testing and placeholder data.
 * [go-shunt](https://github.com/reiver/go-shunt) — enables you to create "middleware" for the the "database/sql" package.
 
 ## Unicode
