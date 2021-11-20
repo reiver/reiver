@@ -11,6 +11,7 @@
 * [Content Addressing](#content-addressing)
 * [Database](#database)
 * [Error Handler](#error-handler)
+* [Iterators](#iterators)
 * [JSON](#json)
 * [Logging](#logging)
 * [Maps](#maps)
@@ -64,6 +65,10 @@
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-manyerrors](https://github.com/reiver/go-manyerrors) — an error type that contains a list of errors.
 * [go-pqerror](https://github.com/reiver/go-pqerror) — a helper library that provides constants for the Postgres Error Codes, to be used with the Golang Postgres driver.
+
+## Iterators
+
+* [go-iter](https://github.com/reiver/go-iter) — provides tools for creating, normalizing, and working with iterators.
 
 ## JSON
 
