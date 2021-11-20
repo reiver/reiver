@@ -9,6 +9,7 @@
 * [Casting](#casting)
 * [Color](#color)
 * [Content Addressing](#content-addressing)
+* [Counting](#counting)
 * [Database](#database)
 * [Error Handler](#error-handler)
 * [Iterators](#iterators)
@@ -19,6 +20,7 @@
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
   * [HTTP](#http)
+* [Stream Processing](#stream-processing)
 * [String Formatting](#string-formatting)
 * [Testing](#testing)
 * [Unicode](#unicode)
@@ -55,6 +57,10 @@
 ## Content Addressing
 
 * [go-hashuri](https://github.com/reiver/go-hashuri) — parses Hash URIs.
+
+## Counting
+
+* [go-mjrty](https://github.com/reiver/go-mjrty) — implementation of the mjrty algorithm; which igures out what is the majority of a sequence of items in a single pass, in O(n) time and O(1) space -- in linear time complexity and constant space complexity. this makes the mjrty algorithm suitable for some types of data streaming.
 
 ## Database
 
@@ -103,6 +109,10 @@
 
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-modhandler](https://pkg.go.dev/github.com/reiver/go-modhandler) — deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
+
+## Stream Processing
+
+* [go-mjrty](https://github.com/reiver/go-mjrty) — implementation of the mjrty algorithm; which igures out what is the majority of a sequence of items in a single pass, in O(n) time and O(1) space -- in linear time complexity and constant space complexity. this makes the mjrty algorithm suitable for some types of data streaming.
 
 ## String Formatting
 
