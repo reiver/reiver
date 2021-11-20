@@ -9,6 +9,7 @@
 * [Casting](#casting)
 * [Color](#color)
 * [Content Addressing](#content-addressing)
+* [Database](#database)
 * [Error Handler](#error-handler)
 * [JSON](#json)
 * [Logging](#logging)
@@ -16,6 +17,8 @@
 * [Money](#money)
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
+  * [HTTP](#http)
+* [Testing](#testing)
 * [Unicode](#unicode)
 * [Unique IDs](#unique-ids)
 * [Video](#video)
@@ -51,11 +54,16 @@
 
 * [go-hashuri](https://github.com/reiver/go-hashuri) — parses Hash URIs.
 
+## Database
+
+* [go-shunt](https://github.com/reiver/go-shunt) — enables you to create "middleware" for the the "database/sql" package.
+
 ## Error Handler
 
 * [go-fck](https://github.com/reiver/go-fck) — tools to create and manipulate errors. one thing to notice is that `fck.Error` errors can be a Go `const`; this can be considered a replacement for `errors.New()` and `fmt.Errorf()`
-* [go-errhttp](https://github.com/reiver/go-errhttp) — types errors that make dealing with HTTP response errors easier.
+* [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-manyerrors](https://github.com/reiver/go-manyerrors) — an error type that contains a list of errors.
+* [go-pqerror](https://github.com/reiver/go-pqerror) — a helper library that provides constants for the Postgres Error Codes, to be used with the Golang Postgres driver.
 
 ## JSON
 
@@ -83,6 +91,15 @@
 * [go-hg](https://github.com/reiver/go-hg) — provides ☿ Mercury Protocol client and server implementations.
   * [hydrargyrum](https://github.com/reiver/hydrargyrum) — a  ☿ Mercury Protocol server that uses **go-hg**
 * [go-telnet](https://github.com/reiver/go-telnet) — TELNET and TELNETS client and server implementations, in a style similar to the "net/http" library that is part of the Go standard library, including support for "middleware"; TELNETS is secure TELNET, with the TELNET protocol over a secured TLS (or SSL) connection.
+
+### HTTP
+
+* [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
+* [go-modhandler](https://pkg.go.dev/github.com/reiver/go-modhandler) — deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
+
+## Testing
+
+* [go-shunt](https://github.com/reiver/go-shunt) — enables you to create "middleware" for the the "database/sql" package.
 
 ## Unicode
 
