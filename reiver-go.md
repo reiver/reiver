@@ -125,7 +125,7 @@
 * [go-stringcase](https://github.com/reiver/go-stringcase) — makes it so you can convert strings to different casing styles: lower case, UPPER CASE, Title Case, camelCase, PascalCase, snake_case, CONST_CASE, property-case, Header-Case.
 * [go-tmpl](https://github.com/reiver/go-tmpl) — provides templating capabilities.
 
-# Supervision Tree
+## Supervision Tree
 
 * [go-retoil](https://github.com/reiver/go-retoil) — provides simple functionality for restarting toilers (i.e., workers).
 * [go-toil](https://github.com/reiver/go-toil) — provides simple functionality for managing toilers (i.e., workers).
