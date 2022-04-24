@@ -4,4 +4,5 @@
 
 ## Programming
 
-* [Hashing Guide](https://github.com/reiver/guide-hashing)
+* [content addressing Guide](http://github.com/reiver/guide-content-addressing)
+* [hashing Guide](https://github.com/reiver/guide-hashing)
