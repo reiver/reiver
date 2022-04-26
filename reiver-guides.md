@@ -6,3 +6,4 @@
 
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
 * [hashing Guide](https://github.com/reiver/guide-hashing)
+* [uuid Guide](https://github.com/reiver/guide-uuid)
