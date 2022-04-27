@@ -6,9 +6,16 @@
 
 * chrono-random Guide
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
+* gemini protocol Guide
 * gemtext Guide
 * guid Guide
 * [hashing Guide](https://github.com/reiver/guide-hashing)
+* http protocol Guide
+* json Guide
+* logging Guide
+* money Guide
+* spam detection Guide
+* sessions Guide
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Meta Programming
