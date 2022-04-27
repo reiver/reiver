@@ -16,6 +16,7 @@
 * money Guide
 * spam detection Guide
 * sessions Guide
+* utf-8 Guide
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Meta Programming
