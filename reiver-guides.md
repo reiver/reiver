@@ -12,8 +12,11 @@
 
 ## People
 
+* demos Guide
 * interviewing Guide
 * one-on-one meetings Guide
 * retrospective meetings Guide
+* roadmaps Guide
 * status reports Guide
 * steering meetings Guide
+* todo lists Guide
