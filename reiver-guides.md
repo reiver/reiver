@@ -14,6 +14,7 @@
 
 * demos Guide
 * interviewing Guide
+* onboarding Guide
 * one-on-one meetings Guide
 * retrospective meetings Guide
 * roadmaps Guide
