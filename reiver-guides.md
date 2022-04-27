@@ -7,6 +7,7 @@
 * chrono-random Guide
 * collaborative filtering Guide
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
+* garbage collector Guide
 * gemini protocol Guide
 * gemtext Guide
 * guid Guide
@@ -15,9 +16,17 @@
 * json Guide
 * logging Guide
 * money Guide
+* neural network Guide
+* regex Guide
+* repl Guide
+* search engine Guide
 * search ranking Guide
-* spam detection Guide
 * sessions Guide
+* shell Guide
+* spam detection Guide
+* template engine Guide
+* terminal emulator Guide
+* text editor Guide
 * urn Guide
 * utf-8 Guide
 * [uuid Guide](https://github.com/reiver/guide-uuid)
