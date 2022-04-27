@@ -14,6 +14,7 @@
 * [hashing Guide](https://github.com/reiver/guide-hashing)
 * http protocol Guide
 * json Guide
+* load balancer Guide
 * logging Guide
 * money Guide
 * neural network Guide
