@@ -36,6 +36,10 @@
 
 * code-reviews Guide
 
+## Software Development Life-Cycle
+* demo deployment environment
+* dev-to-qa hand-over Guide
+
 ## People
 
 * demos Guide
