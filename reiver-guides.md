@@ -41,6 +41,7 @@
 * steering meetings Guide
 * roadmaps Guide
 * todo lists Guide
+* estimates Guide
 * status reports Guide
 * demo deployment environment
 * demos Guide
