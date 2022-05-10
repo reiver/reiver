@@ -37,17 +37,18 @@
 * code-reviews Guide
 
 ## Software Development Life-Cycle
+
+* steering meetings Guide
+* roadmaps Guide
+* todo lists Guide
+* status reports Guide
 * demo deployment environment
+* demos Guide
 * dev-to-qa hand-over Guide
 
 ## People
 
-* demos Guide
 * interviewing Guide
 * onboarding Guide
 * one-on-one meetings Guide
 * retrospective meetings Guide
-* roadmaps Guide
-* status reports Guide
-* steering meetings Guide
-* todo lists Guide
