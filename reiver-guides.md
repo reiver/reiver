@@ -34,7 +34,7 @@
 
 ## Meta Programming
 
-* code-reviews Guide
+* [code-review Guide](https://github.com/reiver/guide-code-review)
 
 ## Software Development Life-Cycle
 
