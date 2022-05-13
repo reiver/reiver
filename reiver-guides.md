@@ -45,7 +45,7 @@
 * status reports Guide
 * demo deployment environment
 * demos Guide
-* dev-to-qa hand-over Guide
+* [dev-to-qa hand-over Guide](https://github.com/reiver/guide-dev-to-qa-hand-over)
 
 ## People
 
