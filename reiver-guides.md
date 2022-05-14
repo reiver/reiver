@@ -8,7 +8,6 @@
 * collaborative filtering Guide
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
 * garbage collector Guide
-* gemini protocol Guide
 * gemtext Guide
 * guid Guide
 * [hashing Guide](https://github.com/reiver/guide-hashing)
@@ -31,6 +30,11 @@
 * urn Guide
 * utf-8 Guide
 * [uuid Guide](https://github.com/reiver/guide-uuid)
+
+## Network Programming
+
+* gemini protocol Guide
+* [text network protocol Guide](https://github.com/reiver/guide-text-network-protocol)
 
 ## Meta Programming
 
