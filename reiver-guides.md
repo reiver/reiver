@@ -28,7 +28,7 @@
 * terminal emulator Guide
 * text editor Guide
 * urn Guide
-* utf-8 Guide
+* [utf-8 Guide](https://github.com/reiver/guide-utf8)
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Network Programming
