@@ -51,6 +51,14 @@
 * demos Guide
 * [dev-to-qa hand-over Guide](https://github.com/reiver/guide-dev-to-qa-hand-over)
 
+## Product
+
+* research interviewing Guide
+
+## UX
+
+* research interviewing Guide
+
 ## People
 
 * interviewing Guide
