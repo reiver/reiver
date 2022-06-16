@@ -53,11 +53,11 @@
 
 ## Product
 
-* research interviewing Guide
+* [research interviewing Guide](https://github.com/reiver/guide-research-interviewing)
 
 ## UX
 
-* research interviewing Guide
+* [research interviewing Guide](https://github.com/reiver/guide-research-interviewing)
 
 ## People
 
