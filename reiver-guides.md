@@ -62,6 +62,6 @@
 ## People
 
 * interviewing Guide
-* onboarding Guide
+* [onboarding Guide](https://github.com/reiver/guide-onboarding)
 * one-on-one meetings Guide
 * retrospective meetings Guide
