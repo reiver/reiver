@@ -25,14 +25,19 @@
 * shell Guide
 * spam detection Guide
 * template engine Guide
-* terminal emulator Guide
 * text editor Guide
 * urn Guide
 * [utf-8 Guide](https://github.com/reiver/guide-utf8)
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
+## Emulators & Interpreters
+
+* chip-8 emulator Guide
+* terminal emulator Guide
+
 ## Network Programming
 
+* finger protocol Guide
 * gemini protocol Guide
 * [text network protocol Guide](https://github.com/reiver/guide-text-network-protocol)
 
