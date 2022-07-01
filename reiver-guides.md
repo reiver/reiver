@@ -14,7 +14,7 @@
 * http protocol Guide
 * json Guide
 * load balancer Guide
-* logging Guide
+* [logging Guide](http://github.com/reiver/guide-logging)
 * money Guide
 * neural network Guide
 * regex Guide
