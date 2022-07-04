@@ -25,13 +25,13 @@
 * template engine Guide
 * text editor Guide
 * urn Guide
-* [utf-8 Guide](https://github.com/reiver/guide-utf8)
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Data Formats
 
 * gemtext Guide
 * json Guide
+* [utf-8 Guide](https://github.com/reiver/guide-utf8)
 
 ## Emulators & Interpreters
 
