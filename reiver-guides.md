@@ -5,7 +5,6 @@
 ## Programming
 
 * chrono-random Guide
-* collaborative filtering Guide
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
 * garbage collector Guide
 * guid Guide
@@ -14,14 +13,11 @@
 * load balancer Guide
 * [logging Guide](http://github.com/reiver/guide-logging)
 * money Guide
-* neural network Guide
 * regex Guide
 * repl Guide
 * search engine Guide
-* search ranking Guide
 * sessions Guide
 * shell Guide
-* spam detection Guide
 * template engine Guide
 * text editor Guide
 * urn Guide
@@ -38,15 +34,22 @@
 * chip-8 emulator Guide
 * terminal emulator Guide
 
+## Machine Learning
+
+* collaborative filtering Guide
+* neural network Guide
+* search ranking Guide
+* spam detection Guide
+
+## Meta Programming
+
+* [code-review Guide](https://github.com/reiver/guide-code-review)
+
 ## Network Programming
 
 * finger protocol Guide
 * gemini protocol Guide
 * [text network protocol Guide](https://github.com/reiver/guide-text-network-protocol)
-
-## Meta Programming
-
-* [code-review Guide](https://github.com/reiver/guide-code-review)
 
 ## Software Development Life-Cycle
 
@@ -59,13 +62,19 @@
 * demos Guide
 * [dev-to-qa hand-over Guide](https://github.com/reiver/guide-dev-to-qa-hand-over)
 
+---
+
 ## Product
 
 * [research interviewing Guide](https://github.com/reiver/guide-research-interviewing)
 
+---
+
 ## UX
 
 * [research interviewing Guide](https://github.com/reiver/guide-research-interviewing)
+
+---
 
 ## People
 
