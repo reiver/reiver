@@ -8,11 +8,9 @@
 * collaborative filtering Guide
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
 * garbage collector Guide
-* gemtext Guide
 * guid Guide
 * [hashing Guide](https://github.com/reiver/guide-hashing)
 * http protocol Guide
-* json Guide
 * load balancer Guide
 * [logging Guide](http://github.com/reiver/guide-logging)
 * money Guide
@@ -29,6 +27,11 @@
 * urn Guide
 * [utf-8 Guide](https://github.com/reiver/guide-utf8)
 * [uuid Guide](https://github.com/reiver/guide-uuid)
+
+## Data Formats
+
+* gemtext Guide
+* json Guide
 
 ## Emulators & Interpreters
 
