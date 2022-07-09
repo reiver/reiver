@@ -29,9 +29,14 @@
 * json Guide
 * [utf-8 Guide](https://github.com/reiver/guide-utf8)
 
+## Data Structures
+
+* stack Guide
+
 ## Emulators & Interpreters
 
 * chip-8 emulator Guide
+* stack machine Guide
 * terminal emulator Guide
 
 ## Machine Learning
