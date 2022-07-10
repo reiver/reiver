@@ -13,8 +13,6 @@
 * load balancer Guide
 * [logging Guide](http://github.com/reiver/guide-logging)
 * money Guide
-* regex Guide
-* repl Guide
 * search engine Guide
 * sessions Guide
 * shell Guide
@@ -38,6 +36,8 @@
 * chip-8 emulator Guide
 * postfix notation Guide
 * prefix notation Guide
+* regex Guide
+* repl Guide
 * terminal emulator Guide
 
 ## Machine Learning
