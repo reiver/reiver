@@ -36,7 +36,8 @@
 ## Emulators & Interpreters
 
 * chip-8 emulator Guide
-* stack machine Guide
+* postfix notation Guide
+* prefix notation Guide
 * terminal emulator Guide
 
 ## Machine Learning
