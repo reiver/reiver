@@ -34,7 +34,7 @@
 ## Emulators & Interpreters
 
 * chip-8 emulator Guide
-* postfix notation Guide
+* [postfix notation Guide](https://github.com/reiver/guide-postfix-notation)
 * prefix notation Guide
 * regex Guide
 * repl Guide
