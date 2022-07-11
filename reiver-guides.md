@@ -44,8 +44,8 @@
 ## Identitiers
 
 * chrono-random Guide
+* database id type Guide
 * guid Guide
-* id type Guide
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Machine Learning
