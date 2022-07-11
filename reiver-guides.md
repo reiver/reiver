@@ -4,7 +4,6 @@
 
 ## Programming
 
-* chrono-random Guide
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
 * garbage collector Guide
 * guid Guide
@@ -17,9 +16,7 @@
 * sessions Guide
 * shell Guide
 * template engine Guide
-* text editor Guide
 * urn Guide
-* [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Data Formats
 
@@ -31,6 +28,11 @@
 
 * stack Guide
 
+## Editors
+
+* line editor Guide
+* text editor Guide
+
 ## Emulators & Interpreters
 
 * chip-8 emulator Guide
@@ -39,6 +41,11 @@
 * regex Guide
 * repl Guide
 * terminal emulator Guide
+
+## Identitiers
+
+* chrono-random Guide
+* [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Machine Learning
 
