@@ -6,7 +6,6 @@
 
 * [content addressing Guide](http://github.com/reiver/guide-content-addressing)
 * garbage collector Guide
-* guid Guide
 * [hashing Guide](https://github.com/reiver/guide-hashing)
 * http protocol Guide
 * load balancer Guide
@@ -45,6 +44,7 @@
 ## Identitiers
 
 * chrono-random Guide
+* guid Guide
 * [uuid Guide](https://github.com/reiver/guide-uuid)
 
 ## Machine Learning
