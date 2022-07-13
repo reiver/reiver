@@ -95,6 +95,6 @@
 * interviewing Guide
 * [onboarding Guide](https://github.com/reiver/guide-onboarding)
 * one-on-one meetings Guide
+* [org Guide](https://github.com/reiver/guide-org)
 * retrospective meetings Guide
-* [role Guide](https://github.com/reiver/guide-role)
 * [work management Guide](https://github.com/reiver/guide-work-management)
