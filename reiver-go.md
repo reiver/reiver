@@ -26,6 +26,7 @@
 * [String Formatting](#string-formatting)
 * [Supervision Tree](#supervision-tree)
 * [Testing](#testing)
+* [twtxt](#twtxt)
 * [Unicode](#unicode)
 * [Unique IDs](#unique-ids)
 * [Video](#video)
@@ -140,6 +141,10 @@
 
 * [go-arbitrary](https://github.com/reiver/go-arbitrary) — provides tools for generating arbitrary data; useful for testing and placeholder data.
 * [go-shunt](https://github.com/reiver/go-shunt) — enables you to create "middleware" for the the "database/sql" package.
+
+## twtxt
+
+* [go-twtxt](https://github.com/reiver/go-twtxt) — implements encoding and decoding of the twtxt data format; which is used for creating feeds that makes up a decentralized micro-blogging social network.
 
 ## Unicode
 
