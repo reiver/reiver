@@ -143,7 +143,7 @@
 
 ## Unicode
 
-* [go-utf8s](https://github.com/reiver/go-utf8s) — tools for working with Unicode encoded as UTF-8, for the Go programming language.
+* [go-utf8](https://github.com/reiver/go-utf8) — implements encoding and decoding of UTF-8, for the Go programming language; this package is meant to be a replacement for Go's built-in "unicode/utf8" package.
 * [go-whitespace](https://github.com/reiver/go-whitespace) — A small library for dealing with whitespace; note that this Go library accounts for all 26 UNICODE whitespace characters (and not just the standard ASCII ones), as well as accounts for all 7 UNICODE mandatory break characters.
 
 ## Unique IDs
