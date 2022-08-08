@@ -16,6 +16,7 @@
 * [JSON](#json)
 * [Logging](#logging)
 * [Maps](#maps)
+* [Monads](#monads)
 * [Money](#money)
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
@@ -94,6 +95,10 @@
 ## Maps
 
 * [go-mapstringinterface](https://github.com/reiver/go-mapstringinterface) — tools for working with Go's `map[string]interface{}` type.
+
+## Monads
+
+* [go-opt](https://github.com/reiver/go-opt) — implements an optional-type, which is also know as, a option-type, and a maybe-type.
 
 ## Money
 
