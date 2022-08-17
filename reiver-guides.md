@@ -98,3 +98,9 @@
 * [org Guide](https://github.com/reiver/guide-org)
 * retrospective meetings Guide
 * [work management Guide](https://github.com/reiver/guide-work-management)
+
+---
+
+## Community
+
+* [influencer Guide](https://github.com/reiver/guide-influencer)
