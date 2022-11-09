@@ -118,6 +118,7 @@
 
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-modhandler](https://pkg.go.dev/github.com/reiver/go-modhandler) — deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
+* [go-netfield](https://github.com/reiver/go-netfield) — provides tools for parsing "net fields" — i.e., the type of fields found in HTTP headers & trailers, as well as SMTP headers.
 
 ## Numbers
 
