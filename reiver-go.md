@@ -21,6 +21,7 @@
 * [Money](#money)
 * [Natural Language Processing](#natural-language-processing)
 * [Networking](#networking)
+  * [Finger](#finger) 
   * [HTTP](#http)
 * [Numbers](#numbers)
 * [Porting](#porting)
@@ -118,6 +119,10 @@
 * [go-hg](https://github.com/reiver/go-hg) — provides ☿ Mercury Protocol client and server implementations.
   * [hydrargyrum](https://github.com/reiver/hydrargyrum) — a  ☿ Mercury Protocol server that uses **go-hg**
 * [go-telnet](https://github.com/reiver/go-telnet) — TELNET and TELNETS client and server implementations, in a style similar to the "net/http" library that is part of the Go standard library, including support for "middleware"; TELNETS is secure TELNET, with the TELNET protocol over a secured TLS (or SSL) connection.
+
+### Finger
+
+* [go-finger](https://github.com/reiver/go-finger) — implements the finger protocol.
 
 ### HTTP
 
