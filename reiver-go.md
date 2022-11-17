@@ -5,6 +5,7 @@
 ## Contents
 
 * [Binary-To-Text Encoding](#binary-to-text-encoding)
+* [Buffers](#buffers)
 * [Byte](#byte)
 * [Casting](#casting)
 * [Color](#color)
@@ -36,6 +37,10 @@
 
 * [go-bravo16](https://github.com/reiver/go-bravo16) — a more (human) safe base-16 binary-to-text encoding, and decoding; brave16 is an alternative to hexadecimal.
 * [go-caret](https://github.com/reiver/go-caret) — encodes, and decodes caret text (i.e., where ASCII control codes are in caret notation) into UTF-8 text (which may also be ASCII text).
+
+## Buffers
+
+* [go-buffers](https://github.com/reiver/go-buffers) — provides betters buffers, and tools for working with buffers.
 
 ## Byte
 
