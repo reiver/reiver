@@ -3,6 +3,7 @@
 ## Lists
 
 * [awesome-finger](https://github.com/reiver/awesome-finger) — a collection of awesome things regarding the finger protocol ecosystem.
+* [fingerverse](https://github.com/reiver/fingerverse) — a list of some finger content
 
 ## Applications
 
