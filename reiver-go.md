@@ -13,6 +13,7 @@
 * [Counting](#counting)
 * [Database](#database)
 * [Error Handler](#error-handler)
+* [File System](#file-system)
 * [Iterators](#iterators)
 * [JSON](#json)
 * [Logging](#logging)
@@ -84,6 +85,10 @@
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
 * [go-manyerrors](https://github.com/reiver/go-manyerrors) — an error type that contains a list of errors.
 * [go-pqerror](https://github.com/reiver/go-pqerror) — a helper library that provides constants for the Postgres Error Codes, to be used with the Golang Postgres driver.
+
+# File System
+
+* [go-strfs](https://github.com/reiver/go-strfs) — provides a virtual file-system, where a fs.File can be created from a Go string.
 
 ## Iterators
 
