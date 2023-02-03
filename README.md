@@ -11,6 +11,3 @@
 * [reiver-guides](reiver-guides.md) — A list of amazing educational guides created by **reiver**.
 * [reiver-fediverse](reiver-fediverse.md) — A list of amazing Fediverse resources created by **reiver**.
 * [reiver-finger](reiver-finger.md) — A list of amazing Finger-Protocol resources created by **reiver**.
-
-
-🐘 <a rel="me" href="https://mastodon.social/@reiver">&commat;reiver &commat;mastodon.social</a>
