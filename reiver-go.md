@@ -14,6 +14,7 @@
 * [Database](#database)
 * [Error Handler](#error-handler)
 * [File System](#file-system)
+* [IO](#io)
 * [Iterators](#iterators)
 * [JSON](#json)
 * [Logging](#logging)
@@ -89,6 +90,11 @@
 # File System
 
 * [go-strfs](https://github.com/reiver/go-strfs) — provides a virtual file-system, where a fs.File can be created from a Go string.
+
+## IO
+
+* [go-iolsep](https://github.com/reiver/go-iolsep) — provides a limited io.ReadCloser that reads a single line from an io.Reader.
+* [go-iopsep](https://github.com/reiver/go-iopsep) — provides a limited io.ReadCloser that reads a single paragraph from an io.Reader.
 
 ## Iterators
 
