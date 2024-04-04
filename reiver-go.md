@@ -95,6 +95,7 @@
 
 * [go-iolsep](https://github.com/reiver/go-iolsep) — provides a limited io.ReadCloser that reads a single line from an io.Reader.
 * [go-iopsep](https://github.com/reiver/go-iopsep) — provides a limited io.ReadCloser that reads a single paragraph from an io.Reader.
+* [go-peek](https://github.com/reiver/go-peek) — provides tools to peek at input.
 
 ## Iterators
 
@@ -176,6 +177,7 @@
 
 ## Unicode
 
+* [go-peek](https://github.com/reiver/go-peek) — provides tools to peek at input, such as peek.PeekRune(), which lets you peek at the next Unicode character.
 * [go-utf8](https://github.com/reiver/go-utf8) — implements encoding and decoding of UTF-8, for the Go programming language; this package is meant to be a replacement for Go's built-in "unicode/utf8" package.
 * [go-whitespace](https://github.com/reiver/go-whitespace) — A small library for dealing with whitespace; note that this Go library accounts for all 26 UNICODE whitespace characters (and not just the standard ASCII ones), as well as accounts for all 7 UNICODE mandatory break characters.
 
