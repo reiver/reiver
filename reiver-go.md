@@ -96,6 +96,7 @@
 * [go-iolsep](https://github.com/reiver/go-iolsep) — provides a limited io.ReadCloser that reads a single line from an io.Reader.
 * [go-iopsep](https://github.com/reiver/go-iopsep) — provides a limited io.ReadCloser that reads a single paragraph from an io.Reader.
 * [go-peek](https://github.com/reiver/go-peek) — provides tools to peek at input.
+* [go-skip](https://github.com/reiver/go-skip) — provides tools for skipping leading input.
 
 ## Iterators
 
