@@ -140,6 +140,7 @@
 ### HTTP
 
 * [go-errhttp](https://github.com/reiver/go-errhttp) — provides errors that make dealing with HTTP response errors easier.
+* [go-httprequestpath](https://github.com/reiver/go-httprequestpath) — provides tools for getting the __path__ from an `http.Request`.
 * [go-modhandler](https://pkg.go.dev/github.com/reiver/go-modhandler) — deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
 * [go-netfield](https://github.com/reiver/go-netfield) — provides tools for parsing "net fields" — i.e., the type of fields found in HTTP headers & trailers, as well as SMTP headers.
 * [go-netln](https://github.com/reiver/go-netln) — provides tools for parsing "net lines" — i.e., lines that end with a "\r\n".
