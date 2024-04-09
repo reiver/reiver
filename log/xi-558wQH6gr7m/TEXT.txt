@@ -1,7 +1,0 @@
-For the Go‐programming‐language, to turn-off and disable GOPROXY, for the “go” command's “go get” sub-command, call it with GOPROXY="direct" as follows:
-
-GOPROXY="direct" go get <url>
-
-So, for example:
-
-GOPROXY="direct" go get https://example.com/path/to/repo
