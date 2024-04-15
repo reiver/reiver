@@ -57,7 +57,7 @@
 
 ## Meta Programming
 
-* [code-review Guide](https://github.com/reiver/guide-code-review)
+* [code-review Guide](http://reiver.link/code-review/guide)
 
 ## Network Programming
 
