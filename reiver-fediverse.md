@@ -29,4 +29,6 @@
 * [go-fediverseid](https://github.com/reiver/go-fediverseid)
 * [go-fedifinger](https://github.com/reiver/go-fedifinger)
 * [go-jsonld](https://github.com/reiver/go-jsonld)
+* [go-mstdn](https://github.com/reiver/go-mstdn)
+* [go-nodeinfo](https://github.com/reiver/go-nodeinfo)
 * [go-webfinger](https://github.com/reiver/go-webfinger)
