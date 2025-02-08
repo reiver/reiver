@@ -37,4 +37,5 @@
 * [go-jsonld](https://github.com/reiver/go-jsonld)
 * [go-mstdn](https://github.com/reiver/go-mstdn)
 * [go-nodeinfo](https://github.com/reiver/go-nodeinfo)
+* [go-tootns](https://github.com/reiver/go-tootns)
 * [go-webfinger](https://github.com/reiver/go-webfinger)
