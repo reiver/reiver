@@ -30,6 +30,8 @@
 ## Software Development
 
 * [go-accturi](https://github.com/reiver/go-accturi)
+* [go-act](https://github.com/reiver/go-act)
+* [go-actfeed](https://github.com/reiver/go-actfeed)
 * [go-fediverseid](https://github.com/reiver/go-fediverseid)
 * [go-fedifinger](https://github.com/reiver/go-fedifinger)
 * [go-jsonld](https://github.com/reiver/go-jsonld)
