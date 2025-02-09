@@ -29,13 +29,13 @@
 
 ## Software Development
 
-* [go-accturi](https://github.com/reiver/go-accturi)
+* [go-accturi](https://github.com/reiver/go-accturi) — an implementation of the acct-URI; Fediverse-IDs are turned into acct-URIs before they are resolved with WebFinger
 * [go-actfeed](https://github.com/reiver/go-actfeed)
-* [go-asns](https://github.com/reiver/go-asns)
-* [go-fediverseid](https://github.com/reiver/go-fediverseid)
-* [go-fedifinger](https://github.com/reiver/go-fedifinger)
-* [go-jsonld](https://github.com/reiver/go-jsonld)
-* [go-mstdn](https://github.com/reiver/go-mstdn)
-* [go-nodeinfo](https://github.com/reiver/go-nodeinfo)
-* [go-tootns](https://github.com/reiver/go-tootns)
-* [go-webfinger](https://github.com/reiver/go-webfinger)
+* [go-asns](https://github.com/reiver/go-asns) — an implementation of the ActivityPub & ActivityStreams JSON-LD namespace
+* [go-fediverseid](https://github.com/reiver/go-fediverseid) — an implementation of the Fediverse-ID
+* [go-fedifinger](https://github.com/reiver/go-fedifinger) — tools to make working with WebFinger easier, in the way the Fediverse uses it
+* [go-jsonld](https://github.com/reiver/go-jsonld) — an implementation of JSON-LD
+* [go-mstdn](https://github.com/reiver/go-mstdn) — an implementation of the Mastodon APIs
+* [go-nodeinfo](https://github.com/reiver/go-nodeinfo) — an implementation of the NodeInfo protocol
+* [go-tootns](https://github.com/reiver/go-tootns) — an implementation of the "toot" JSON-LD namespace
+* [go-webfinger](https://github.com/reiver/go-webfinger) — an implementation of WebFinger
