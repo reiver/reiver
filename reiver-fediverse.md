@@ -19,13 +19,15 @@
 ## Software
 
 * **badgerverse**
-* [batfeed](https://github.com/reiver/batfeed) — a back-end for custom feeds.
 * [greatape](https://github.com/reiver/greatape) — a free social audio & video social-media platform.
   * [littleape](https://github.com/reiver/littleape) — a front-end for greatape
   * [logjam](https://github.com/reiver/logjam) — the room management back-end for greatape
 * **protogo** — a career, gig, and business focused decentralized social-media (DeSo) platform, for the Fediverse and Social Web.
   * [protogo-app](https://github.com/reiver/protogo-app)  
 * [relayverse](https://github.com/reiver/relayverse)
+* socialfed
+  * [socialfed-api](https://github.com/reiver/socialfed-api) — a back-end API for custom feeds.
+ 
 
 ## Software Development
 
