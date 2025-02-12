@@ -25,7 +25,7 @@
 * **protogo** — a career, gig, and business focused decentralized social-media (DeSo) platform, for the Fediverse and Social Web.
   * [protogo-app](https://github.com/reiver/protogo-app)  
 * [relayverse](https://github.com/reiver/relayverse)
-* socialfed
+* **socialfed**
   * [socialfed-api](https://github.com/reiver/socialfed-api) — a back-end API for custom feeds.
  
 
